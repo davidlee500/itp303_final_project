@@ -1,0 +1,21 @@
+:local .Main {
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-bottom: 2vh;
+    padding-top: 85px;
+    text-align: center;
+  }
+
+:local .about__title {
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 36px; 
+  text-align: left; }
+  .wf-montserrat-n7-active .about__title {
+    font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  @media (max-width: 500px) {
+    .about__title {
+      font-size: 25px; }
+      .about__title br {
+        display: none; } 
+  }

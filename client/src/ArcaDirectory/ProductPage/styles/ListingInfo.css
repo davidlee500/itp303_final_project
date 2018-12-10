@@ -1,0 +1,4 @@
+:local .ListingInfo {
+  display: flex;
+  text-align: center;
+}

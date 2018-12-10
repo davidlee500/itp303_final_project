@@ -1,0 +1,60 @@
+html,body{
+  margin:0;
+  padding:0;
+}
+
+:local .Navbar {
+  display:flex;
+  margin: 0;
+  padding: 0 24px;
+  height: 64px;
+  border-bottom: 1px solid lightgrey;
+  background-color:white;
+  width: 100%;
+  justify-content: flex-start;
+  text-align: left;
+  align-items:center;
+  color: black;
+  position: fixed;
+  z-index: 1;
+  /* background-color: rgba(17, 17, 252, 0.384); */
+}
+
+:local .search{
+  padding-left: 25px;
+  width: 50%;
+}
+
+:local .input{
+  border-radius: 12px;
+}
+
+:local .title{
+  align-content: center;  
+}
+
+:local .titleicon{
+  height: 42px;
+  vertical-align: middle;
+  width: auto;
+  overflow:auto;
+}
+
+:local .about{
+  vertical-align:middle;
+  text-align: right;
+  width: 50%;
+  font-weight: bold;
+  color:black;
+}
+
+:local .about a:link{
+  text-decoration: none;
+  color:black;
+}
+:local .about a:visited{
+  color:black;
+}
+:local .about a:hover{
+  color:black;
+}

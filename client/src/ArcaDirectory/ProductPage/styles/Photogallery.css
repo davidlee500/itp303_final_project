@@ -1,0 +1,8 @@
+:local .PhotoGallery {
+  text-align: center;
+}
+
+:local .image{
+  background-size: cover;
+  width: 100%;
+}
